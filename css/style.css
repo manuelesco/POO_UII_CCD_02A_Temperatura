@@ -1,0 +1,118 @@
+*{margin: 0;}
+
+html, body{
+   height: 100%;
+}
+
+.wrapper {
+	border: 5px pxsolid darkblue;
+	width: 80%;
+	height: 100%;
+}
+
+.box {
+	max-width: 100%;
+}
+
+.box img{
+	width: 80%;
+	height: auto;
+}
+
+.iframe{
+	width: 99%;
+	height: 1600px;
+}
+
+.iframe2{
+	width: 99%;
+	height: 1000px;
+}
+
+.iframe3{
+	width: 99%;
+	height: 2300px;
+	
+}
+
+.titulo{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.subtitulo{
+	text-align: left;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.texto-justificado{
+	text-align: justify;
+	font-size: 35px;
+}
+
+.textoRojoNegrita{ 
+	color: red;
+	font-weight: bold; 
+}
+
+.tabla{
+	border: black 3px solid;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.instrucciones{
+	max-width: 100%;
+	display:none;
+	height: auto;
+	/*display:none;
+	position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;*/
+}
+
+/*
+.instrucciones iframe{
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.codeboard{
+	max-width: 100%;
+	display: none;
+	height: 1000px;
+}
+
+.comoUsarCodeboard{
+	max-width: 100%;
+	display:none;
+	/*min-height: 1600px;
+	max-height: 2000px;
+	height: 100%;*/
+}
+
+.botonColor { 
+  padding: 30px; 
+  background: #F5F5F5; 
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  width: 33%;
+}
+
+.botonColor:hover { 
+  padding: 30px; 
+  background: blue; 
+  color: white; 
+}
